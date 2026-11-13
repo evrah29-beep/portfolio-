@@ -1,0 +1,358 @@
+[
+  {
+    "id": "windows-11",
+    "name": "Windows 11",
+    "description": "Official Windows 11 installation media and upgrade options from Microsoft.",
+    "category": "Operating Systems",
+    "version": "Check official source",
+    "platforms": [
+      "Windows"
+    ],
+    "fileType": "ISO",
+    "fileSize": "Varies by edition",
+    "license": "Proprietary; license required",
+    "icon": "fa-brands fa-windows",
+    "officialWebsite": "https://www.microsoft.com/software-download/windows11",
+    "downloadUrl": "https://www.microsoft.com/software-download/windows11",
+    "sourceUrl": "https://www.microsoft.com/software-download/windows11",
+    "dateAdded": "2026-11-13",
+    "lastVerified": "2026-11-13",
+    "featured": true
+  },
+  {
+    "id": "ubuntu-desktop",
+    "name": "Ubuntu Desktop",
+    "description": "A Linux desktop operating system with an official installation image and installation guidance.",
+    "category": "Operating Systems",
+    "version": "Check official source",
+    "platforms": [
+      "Linux"
+    ],
+    "fileType": "ISO",
+    "fileSize": "Varies by release",
+    "license": "Open source",
+    "icon": "fa-brands fa-ubuntu",
+    "officialWebsite": "https://ubuntu.com/download/desktop",
+    "downloadUrl": "https://ubuntu.com/download/desktop",
+    "sourceUrl": "https://ubuntu.com/download/desktop",
+    "dateAdded": "2026-11-13",
+    "lastVerified": "2026-11-13",
+    "featured": true
+  },
+  {
+    "id": "debian",
+    "name": "Debian",
+    "description": "Download official Debian installation images and find release notes and authenticity checks.",
+    "category": "Operating Systems",
+    "version": "Check official source",
+    "platforms": [
+      "Linux"
+    ],
+    "fileType": "ISO",
+    "fileSize": "Varies by image",
+    "license": "Open source",
+    "icon": "fa-brands fa-linux",
+    "officialWebsite": "https://www.debian.org/download",
+    "downloadUrl": "https://www.debian.org/download",
+    "sourceUrl": "https://www.debian.org/download",
+    "dateAdded": "2026-11-13",
+    "lastVerified": "2026-11-13",
+    "featured": false
+  },
+  {
+    "id": "photoshop",
+    "name": "Adobe Photoshop",
+    "description": "Professional image editing software. Adobe provides the current installer through Creative Cloud and offers a trial subject to its terms.",
+    "category": "Design & Creative",
+    "version": "Current version at Adobe",
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "fileType": "Web",
+    "fileSize": "Installer via Creative Cloud",
+    "license": "Paid subscription; trial terms apply",
+    "icon": "fa-solid fa-image",
+    "officialWebsite": "https://www.adobe.com/products/photoshop/free-trial-download.html",
+    "downloadUrl": "https://www.adobe.com/products/photoshop/free-trial-download.html",
+    "sourceUrl": "https://www.adobe.com/products/photoshop/free-trial-download.html",
+    "dateAdded": "2026-11-13",
+    "lastVerified": "2026-11-13",
+    "featured": false
+  },
+  {
+    "id": "microsoft-365",
+    "name": "Microsoft Office",
+    "description": "Official Microsoft 365 plans, apps, and installation information. Access depends on your account and subscription.",
+    "category": "Office & Productivity",
+    "version": "Current version at Microsoft",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Android"
+    ],
+    "fileType": "Web",
+    "fileSize": "Installer via Microsoft account",
+    "license": "Subscription or eligible license",
+    "icon": "fa-brands fa-microsoft",
+    "officialWebsite": "https://www.microsoft.com/microsoft-365/download-office",
+    "downloadUrl": "https://www.microsoft.com/microsoft-365/download-office",
+    "sourceUrl": "https://www.microsoft.com/microsoft-365/download-office",
+    "dateAdded": "2026-11-13",
+    "lastVerified": "2026-11-13",
+    "featured": false
+  },
+  {
+    "id": "virtualbox",
+    "name": "Oracle VirtualBox",
+    "description": "Oracle’s official downloads for VirtualBox virtualization packages and extensions.",
+    "category": "Networking & Virtualization",
+    "version": "Check official source",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "fileType": "Web",
+    "fileSize": "Varies by platform",
+    "license": "GPLv3; extension pack has separate terms",
+    "icon": "fa-solid fa-cubes",
+    "officialWebsite": "https://download.virtualbox.org/virtualbox/",
+    "downloadUrl": "https://download.virtualbox.org/virtualbox/",
+    "sourceUrl": "https://download.virtualbox.org/virtualbox/",
+    "dateAdded": "2026-11-13",
+    "lastVerified": "2026-11-13",
+    "featured": true
+  },
+  {
+    "id": "rustdesk",
+    "name": "RustDesk",
+    "description": "Open-source remote desktop client. Download builds and review supported platforms in RustDesk’s official resources.",
+    "category": "Networking & Virtualization",
+    "version": "Check official source",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android"
+    ],
+    "fileType": "Web",
+    "fileSize": "Varies by platform",
+    "license": "Open source client; see project terms",
+    "icon": "fa-solid fa-display",
+    "officialWebsite": "https://rustdesk.com/",
+    "downloadUrl": "https://rustdesk.com/",
+    "sourceUrl": "https://rustdesk.com/docs/en/client/",
+    "dateAdded": "2026-11-13",
+    "lastVerified": "2026-11-13",
+    "featured": false
+  },
+  {
+    "id": "chrome",
+    "name": "Google Chrome",
+    "description": "Google’s browser download and installation instructions for supported operating systems.",
+    "category": "Developer Tools",
+    "version": "Current version at Google",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS",
+      "Android"
+    ],
+    "fileType": "Web",
+    "fileSize": "Varies by platform",
+    "license": "Freeware; Google terms apply",
+    "icon": "fa-brands fa-chrome",
+    "officialWebsite": "https://www.google.com/chrome/",
+    "downloadUrl": "https://www.google.com/chrome/",
+    "sourceUrl": "https://support.google.com/chrome/answer/95346",
+    "dateAdded": "2026-11-13",
+    "lastVerified": "2026-11-13",
+    "featured": false
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "description": "The Python programming language. Select the appropriate release and installer from Python.org.",
+    "category": "Developer Tools",
+    "version": "Current release at Python.org",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "fileType": "Web",
+    "fileSize": "Varies by installer",
+    "license": "Open source",
+    "icon": "fa-brands fa-python",
+    "officialWebsite": "https://www.python.org/downloads/",
+    "downloadUrl": "https://www.python.org/downloads/",
+    "sourceUrl": "https://www.python.org/downloads/",
+    "dateAdded": "2026-11-13",
+    "lastVerified": "2026-11-13",
+    "featured": true
+  },
+  {
+    "id": "rufus",
+    "name": "Rufus",
+    "description": "Create bootable USB installation media from official Windows and Linux ISO images.",
+    "category": "Utilities & Other",
+    "version": "4.15 (stable listing)",
+    "platforms": [
+      "Windows"
+    ],
+    "fileType": "EXE",
+    "fileSize": "1.9 MB (x64 standard listing)",
+    "license": "Open source (GPLv3)",
+    "icon": "fa-solid fa-box",
+    "officialWebsite": "https://rufus.ie/",
+    "downloadUrl": "https://rufus.ie/",
+    "sourceUrl": "https://rufus.ie/",
+    "dateAdded": "2026-11-13",
+    "lastVerified": "2026-11-13",
+    "featured": true
+  },
+  {
+    "id": "cpu-z",
+    "name": "CPU-Z",
+    "description": "Free system information utility for viewing processor, motherboard, and memory details.",
+    "category": "Utilities & Other",
+    "version": "3.02 (Windows)",
+    "platforms": [
+      "Windows",
+      "Android"
+    ],
+    "fileType": "EXE",
+    "fileSize": "Not listed",
+    "license": "Freeware",
+    "icon": "fa-solid fa-microchip",
+    "officialWebsite": "https://www.cpuid.com/softwares/cpu-z.html",
+    "downloadUrl": "https://www.cpuid.com/softwares/cpu-z.html",
+    "sourceUrl": "https://www.cpuid.com/softwares/cpu-z.html",
+    "dateAdded": "2026-11-13",
+    "lastVerified": "2026-11-13",
+    "featured": false
+  },
+  {
+    "id": "debian-install-guide",
+    "name": "Debian Installation Guide",
+    "description": "Read Debian’s official HTML installation manual, including preparation, installation, and system configuration.",
+    "category": "Guides & Documentation",
+    "version": "Current manual at Debian.org",
+    "platforms": [
+      "Linux"
+    ],
+    "fileType": "Web",
+    "fileSize": "Online documentation",
+    "license": "Debian documentation terms",
+    "icon": "fa-solid fa-book-open",
+    "officialWebsite": "https://www.debian.org/releases/stable/amd64/",
+    "downloadUrl": "https://www.debian.org/releases/stable/amd64/",
+    "sourceUrl": "https://www.debian.org/releases/stable/amd64/",
+    "dateAdded": "2026-11-13",
+    "lastVerified": "2026-11-13",
+    "featured": false
+  },
+  {
+    "id": "ubuntu-install-guide",
+    "name": "Ubuntu Desktop Installation Guide",
+    "description": "Step-by-step official guidance for preparing installation media and installing Ubuntu Desktop.",
+    "category": "Guides & Documentation",
+    "version": "Current guide at Ubuntu.com",
+    "platforms": [
+      "Linux"
+    ],
+    "fileType": "Web",
+    "fileSize": "Online documentation",
+    "license": "Documentation terms at source",
+    "icon": "fa-solid fa-book-open",
+    "officialWebsite": "https://ubuntu.com/tutorials/install-ubuntu-desktop",
+    "downloadUrl": "https://ubuntu.com/tutorials/install-ubuntu-desktop",
+    "sourceUrl": "https://ubuntu.com/tutorials/install-ubuntu-desktop",
+    "dateAdded": "2026-11-13",
+    "lastVerified": "2026-11-13",
+    "featured": false
+  },
+  {
+    "id": "linux-mint",
+    "name": "Linux Mint",
+    "description": "Download official Linux Mint editions and access release notes and installation instructions.",
+    "category": "Operating Systems",
+    "version": "Check official source",
+    "platforms": [
+      "Linux"
+    ],
+    "fileType": "ISO",
+    "fileSize": "Varies by edition",
+    "license": "Open source",
+    "icon": "fa-brands fa-linux",
+    "officialWebsite": "https://www.linuxmint.com/download.php",
+    "downloadUrl": "https://www.linuxmint.com/download.php",
+    "sourceUrl": "https://www.linuxmint.com/download.php",
+    "dateAdded": "2026-11-13",
+    "lastVerified": "2026-11-13",
+    "featured": false
+  },
+  {
+    "id": "windows-server",
+    "name": "Windows Server Evaluation",
+    "description": "Microsoft evaluation media for Windows Server. Review the trial duration and prerequisites before installing.",
+    "category": "Operating Systems",
+    "version": "Windows Server 2025 evaluation",
+    "platforms": [
+      "Windows"
+    ],
+    "fileType": "ISO",
+    "fileSize": "See download options",
+    "license": "180-day evaluation; Microsoft terms apply",
+    "icon": "fa-brands fa-windows",
+    "officialWebsite": "https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025",
+    "downloadUrl": "https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025",
+    "sourceUrl": "https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025",
+    "dateAdded": "2026-11-13",
+    "lastVerified": "2026-11-13",
+    "featured": false
+  },
+  {
+    "id": "packet-tracer",
+    "name": "Cisco Packet Tracer",
+    "description": "Cisco network simulation tool available through Cisco Networking Academy and Skills for All learning resources.",
+    "category": "Networking & Virtualization",
+    "version": "Current version after Cisco sign-in",
+    "platforms": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "fileType": "Web",
+    "fileSize": "Varies by installer",
+    "license": "Free through Cisco learning account; terms apply",
+    "icon": "fa-solid fa-network-wired",
+    "officialWebsite": "https://www.netacad.com/courses/getting-started-cisco-packet-tracer/1000",
+    "downloadUrl": "https://www.netacad.com/courses/getting-started-cisco-packet-tracer/1000",
+    "sourceUrl": "https://www.netacad.com/resources/lab-downloads",
+    "dateAdded": "2026-11-13",
+    "lastVerified": "2026-11-13",
+    "featured": false
+  },
+  {
+    "id": "rammap",
+    "name": "RAMMap",
+    "description": "Microsoft Sysinternals utility for examining how Windows assigns and uses physical memory.",
+    "category": "Utilities & Other",
+    "version": "1.63",
+    "platforms": [
+      "Windows"
+    ],
+    "fileType": "ZIP",
+    "fileSize": "719 KB",
+    "license": "Freeware; Microsoft terms apply",
+    "icon": "fa-solid fa-memory",
+    "officialWebsite": "https://learn.microsoft.com/en-us/sysinternals/downloads/rammap",
+    "downloadUrl": "https://learn.microsoft.com/en-us/sysinternals/downloads/rammap",
+    "sourceUrl": "https://learn.microsoft.com/en-us/sysinternals/downloads/rammap",
+    "dateAdded": "2026-11-13",
+    "lastVerified": "2026-11-13",
+    "featured": false
+  }
+]

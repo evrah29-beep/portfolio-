@@ -1,11 +1,43 @@
 document.addEventListener("DOMContentLoaded", function() {
+
+    // Theme toggle with a saved preference.
+    const themeToggle = document.getElementById('themeToggle');
+    let savedTheme = null;
+    try {
+        savedTheme = window.localStorage.getItem('portfolio-theme');
+    } catch (error) {
+        // Keep the theme toggle usable when browser storage is unavailable.
+    }
+
+    function setTheme(isDark) {
+        document.body.classList.toggle('theme-dark', isDark);
+        themeToggle.setAttribute('aria-pressed', String(isDark));
+        themeToggle.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to dark theme');
+        themeToggle.innerHTML = isDark
+            ? '<i class="fa-regular fa-sun mr-1" aria-hidden="true"></i><span>Light</span>'
+            : '<i class="fa-regular fa-moon mr-1" aria-hidden="true"></i><span>Dark</span>';
+    }
+
+    setTheme(savedTheme === 'dark');
+    themeToggle.addEventListener('click', function() {
+        const isDark = !document.body.classList.contains('theme-dark');
+        setTheme(isDark);
+        try {
+            window.localStorage.setItem('portfolio-theme', isDark ? 'dark' : 'light');
+        } catch (error) {
+            // The selected theme still applies for this page view.
+        }
+    });
     
     // 1. Initialize AOS (Animate On Scroll)
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
     AOS.init({
         duration: 800,
-        easing: 'slide',
+        easing: 'ease-out-cubic',
         once: true, // Whether animation should happen only once - while scrolling down
-        offset: 50
+        offset: 60,
+        disable: reduceMotion
     });
 
     // 2. Navbar Scroll Effect
@@ -64,13 +96,6 @@ document.addEventListener("DOMContentLoaded", function() {
             if (!contactForm.checkValidity()) {
                 event.preventDefault();
                 event.stopPropagation();
-            } else {
-                // Prevent actual submission for demo purposes, show alert instead
-                event.preventDefault();
-                alert("Thank you! Your message has been sent successfully.");
-                contactForm.reset();
-                contactForm.classList.remove('was-validated');
-                return;
             }
             contactForm.classList.add('was-validated');
         }, false);

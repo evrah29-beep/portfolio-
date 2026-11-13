@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f8f7ff">
+    <title>Guides &amp; Tutorials | Ifrah Hassan Abdulle</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="80">
+    <nav class="navbar navbar-expand-xl navbar-light fixed-top scrolled" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html#home"><div class="brand-icon"><i class="fa-solid fa-code"></i></div><div class="brand-text ml-2"><span class="font-weight-bold d-block">Ifrah</span><small class="text-muted d-block">Junior Full-Stack Developer</small></div></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="downloads.html">Software Library</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="d-flex flex-wrap align-items-center justify-content-center">
+                    <a href="index.html#contact" class="btn btn-primary btn-pill shadow-sm">Hire Me <i class="fa-regular fa-paper-plane ml-1"></i></a>
+                    <button type="button" class="btn btn-outline-primary btn-pill theme-toggle ml-lg-2 mt-2 mt-lg-0" id="themeToggle" aria-label="Switch to dark theme" aria-pressed="false"><i class="fa-regular fa-moon mr-1" aria-hidden="true"></i><span>Dark</span></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="guide-page section-padding">
+        <div class="container">
+            <div class="row align-items-end mb-4">
+                <div class="col-lg-8"><span class="text-primary font-weight-bold">Learn and troubleshoot</span><h1 class="font-weight-bold display-5">Guides &amp; Tutorials</h1><p class="text-muted mb-0">Practical, text-based instructions with references to official publishers. No guide PDFs or fake downloads required.</p></div>
+                <div class="col-lg-4 text-lg-right mt-3 mt-lg-0"><a href="downloads.html" class="btn btn-outline-primary btn-pill"><i class="fa-solid fa-arrow-left mr-2" aria-hidden="true"></i>Software Library</a></div>
+            </div>
+            <div class="guide-trust-note mb-4"><i class="fa-solid fa-shield-halved mr-2" aria-hidden="true"></i><span>Activation guides use Microsoft’s licensing and support flows. This site does not provide activation bypasses, keys, or scripts.</span></div>
+            <div class="custom-card p-3 p-md-4 mb-4">
+                <div class="row align-items-end">
+                    <div class="col-lg-8 mb-3 mb-lg-0"><label class="filter-label" for="guideSearch">Search guides</label><div class="input-group"><div class="input-group-prepend"><span class="input-group-text"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i></span></div><input class="form-control guide-search" id="guideSearch" type="search" placeholder="Search title, software, category, or description" autocomplete="off"></div></div>
+                    <div class="col-lg-4"><label class="filter-label" for="guideCategory">Category</label><select class="form-control library-select" id="guideCategory"><option value="">All guide categories</option></select></div>
+                </div>
+                <p class="text-muted small mb-0 mt-3" id="guideCount" aria-live="polite"></p>
+            </div>
+            <div class="row guide-layout">
+                <aside class="col-lg-4 mb-4" id="guideLibraryList" aria-label="Guide directory">
+                    <div class="guide-list custom-card" id="guideList"></div>
+                    <div class="custom-card p-3 mt-3 guide-empty d-none" id="guideEmpty">No guides match those filters.</div>
+                </aside>
+                <section class="col-lg-8" aria-label="Guide reading area">
+                    <div class="custom-card guide-reader p-3 p-md-5" id="guideReader"><div class="guide-reader-empty"><i class="fa-solid fa-book-open fa-2x text-primary mb-3" aria-hidden="true"></i><h2 class="h4 font-weight-bold">Choose a guide to get started</h2><p class="text-muted mb-0">Search the directory or choose a category to find instructions.</p></div></div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer section-padding pb-4"><div class="container"><div class="row align-items-center"><div class="col-md-6 text-center text-md-left mb-3 mb-md-0"><a class="text-white" href="index.html">Ifrah Hassan Abdulle</a></div><div class="col-md-6 text-center text-md-right"><a class="text-white" href="downloads.html">Software Library</a><span class="text-white-50 mx-2">·</span><a class="text-white" href="index.html#contact">Contact</a></div></div><hr class="border-secondary mt-4 mb-4"><div class="text-center text-white-50 small">&copy; 2026 Ifrah Hassan Abdulle. All rights reserved.</div></div></footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/guides.js"></script>
+</body>
+</html>
