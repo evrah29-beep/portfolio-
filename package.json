@@ -1,0 +1,7 @@
+{
+  "name": "ifrah-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static portfolio website built with HTML, CSS, and vanilla JavaScript.",
+  "dependencies": {}
+}

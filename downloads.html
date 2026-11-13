@@ -40,53 +40,13 @@
     <main class="download-page">
         <section class="section-padding download-heading">
             <div class="container">
-                <div class="row align-items-end mb-4">
-                    <div class="col-lg-8">
-                        <span class="text-primary font-weight-bold">Curated resources</span>
-                        <h1 class="font-weight-bold display-5">Software &amp; Tools Library</h1>
-                        <p class="text-muted mb-0">Find useful software, operating systems, and learning resources. Downloads open on their official vendor or documentation websites.</p>
-                    </div>
-                    <div class="col-lg-4 text-lg-right mt-3 mt-lg-0"><a href="index.html" class="btn btn-outline-primary btn-pill"><i class="fa-solid fa-arrow-left mr-2"></i>Back to Portfolio</a></div>
+                <div class="custom-card p-4 p-md-5 text-center" data-aos="fade-up">
+                    <div class="coming-soon-icon mx-auto mb-3"><i class="fa-solid fa-download" aria-hidden="true"></i></div>
+                    <span class="text-primary font-weight-bold">Coming Soon</span>
+                    <h1 class="font-weight-bold mt-2">Software &amp; Tools Library</h1>
+                    <p class="text-muted mb-4">The library is being prepared. Please check back soon.</p>
+                    <a href="index.html" class="btn btn-primary btn-pill"><i class="fa-solid fa-arrow-left mr-2" aria-hidden="true"></i>Back to Portfolio</a>
                 </div>
-                <div class="d-flex flex-wrap align-items-center justify-content-between mb-4">
-                    <p class="text-muted small mb-2 mb-md-0">Looking for instructions? Browse the text-based guides.</p>
-                    <a href="guides.html" class="btn btn-primary btn-pill"><i class="fa-solid fa-book-open mr-2" aria-hidden="true"></i>Browse Guides</a>
-                </div>
-                <div class="download-notice mb-4"><i class="fa-solid fa-shield-halved mr-2" aria-hidden="true"></i><span>Links go to official sources. Check each publisher’s license, system requirements, and file details before downloading. This library does not host files or perform malware scans.</span></div>
-
-                <div class="custom-card p-3 p-md-4 mb-4 library-controls">
-                    <label class="sr-only" for="softwareSearch">Search the software library</label>
-                    <div class="input-group library-search mb-3">
-                        <div class="input-group-prepend"><span class="input-group-text"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i></span></div>
-                        <input id="softwareSearch" class="form-control" type="search" placeholder="Search name, category, platform, or description…" autocomplete="off">
-                    </div>
-                    <div class="row align-items-end">
-                        <div class="col-lg-8 mb-3 mb-lg-0">
-                            <label class="filter-label" for="categoryFilter">Category</label>
-                            <select id="categoryFilter" class="form-control library-select"><option value="">All software</option></select>
-                        </div>
-                        <div class="col-sm-6 col-lg-2 mb-3 mb-sm-0">
-                            <label class="filter-label" for="platformFilter">Platform</label>
-                            <select id="platformFilter" class="form-control library-select"><option value="">All platforms</option><option>Windows</option><option>Linux</option><option>macOS</option><option>Android</option></select>
-                        </div>
-                        <div class="col-sm-6 col-lg-2">
-                            <label class="filter-label" for="fileTypeFilter">File type</label>
-                            <select id="fileTypeFilter" class="form-control library-select"><option value="">All types</option><option>EXE</option><option>ISO</option><option>ZIP</option><option>RAR</option><option>PDF</option><option>Web</option></select>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-wrap justify-content-between align-items-center mt-3">
-                        <p class="text-muted small mb-2 mb-md-0" id="resultCount" aria-live="polite"></p>
-                        <div class="d-flex align-items-center">
-                            <label class="filter-label mb-0 mr-2" for="sortFilter">Sort</label>
-                            <select id="sortFilter" class="form-control library-select library-sort"><option value="name">Name A–Z</option><option value="recent">Recently added</option></select>
-                            <button type="button" class="btn btn-link btn-sm ml-2" id="clearFilters">Clear filters</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="softwareGrid" class="row" aria-live="polite"></div>
-                <div id="noResults" class="custom-card p-5 text-center d-none"><i class="fa-solid fa-box-open fa-2x text-primary mb-3" aria-hidden="true"></i><h2 class="h4 font-weight-bold">No matching resources</h2><p class="text-muted mb-0">Try a different search or clear your filters.</p></div>
-                <p class="text-muted small mt-4">Catalog research reference: <a href="https://www.hurbad.com/downloads" target="_blank" rel="noopener noreferrer">Hurbad Software Downloads</a>. This portfolio is independent and sends visitors to each publisher’s official source.</p>
             </div>
         </section>
     </main>
@@ -95,17 +55,9 @@
         <div class="container"><div class="row align-items-center"><div class="col-md-6 text-center text-md-left mb-3 mb-md-0"><a class="text-white" href="index.html">Ifrah Hassan Abdulle</a></div><div class="col-md-6 text-center text-md-right"><a class="text-white" href="projects.html">Projects</a><span class="text-white-50 mx-2">·</span><a class="text-white" href="index.html#contact">Contact</a></div></div><hr class="border-secondary mt-4 mb-4"><div class="text-center text-white-50 small">&copy; 2026 Ifrah Hassan Abdulle. All rights reserved.</div></div>
     </footer>
 
-    <div class="modal fade" id="softwareModal" tabindex="-1" role="dialog" aria-labelledby="softwareModalTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content library-modal">
-            <div class="modal-header"><div><span class="text-primary small font-weight-bold" id="modalCategory"></span><h2 class="modal-title h4 font-weight-bold" id="softwareModalTitle"></h2></div><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
-            <div class="modal-body"><p class="text-muted" id="modalDescription"></p><dl class="software-details" id="modalDetails"></dl><div class="security-note"><i class="fa-solid fa-circle-info mr-2" aria-hidden="true"></i>Source page is provided by the publisher. File integrity has not been independently checked by this portfolio.</div></div>
-            <div class="modal-footer"><a id="modalSource" class="btn btn-outline-primary btn-pill" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square mr-2" aria-hidden="true"></i>Official source</a><a class="btn btn-primary btn-pill" id="modalDownload" target="_blank" rel="noopener noreferrer">Visit download page <i class="fa-solid fa-download ml-2" aria-hidden="true"></i></a></div>
-        </div></div>
-    </div>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/library.js"></script>
 </body>
 </html>
